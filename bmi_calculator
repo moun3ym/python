@@ -1,0 +1,10 @@
+#enter the height 
+height = input("Enter your height please! \n")
+#enter the weight 
+weight = input("Enter your weight please! \n")
+#calculate the bmi 
+bmi = float(weight)/float(height) ** 2
+#convert bmi to an integer instead of a float result
+bmi_as_int = int(bmi)
+#print the result with a simple message
+print("Your bmi is : " + str(bmi_as_int))
