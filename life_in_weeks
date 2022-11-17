@@ -1,0 +1,10 @@
+#ask user to enter his or her age
+age = input("enter your age please! ")
+#convert age to an int 
+age_as_int = int(age)
+#count the remaining years days and weeks
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+print("You have " + str(days_remaining) +" Days " + str(weeks_remaining) +" weeks " + str(months_remaining) +" months remaining in your life\n")
