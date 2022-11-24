@@ -1,0 +1,23 @@
+#enter the height 
+height = float(input("Enter your height please in m! \n"))
+#enter the weight 
+weight = float(input("Enter your weight please in kg! \n"))
+#calculate the bmi 
+bmi = round(weight / height ** 2)
+#convert bmi to an integer instead of a float result
+#bmi_as_int = int(bmi)
+#print the result with a simple message
+
+if bmi < 18.5:
+  print(f"Your bmi is {bmi}, you are Underweight") 
+elif bmi < 25:
+  print(f"Your bmi is {bmi}, you have a normal weight")
+elif bmi < 30:
+  print(f"Your bmi is {bmi}, you are Overweight! loose weight ASAP!")
+elif bmi < 35:
+  print(f"Your bmi is {bmi}, you are Obese! see a doctor soon!")    
+else:
+  print (f"Your bmi is {bmi}, you are Clinically obese! see a doctor as soon as possible!")
+print("Good bye!")
+    
+
